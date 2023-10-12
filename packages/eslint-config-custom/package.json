@@ -1,0 +1,13 @@
+{
+  "name": "eslint-config-custom",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.4.1",
+    "@typescript-eslint/parser": "^6.4.1",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-turbo": "^1.10.12",
+    "eslint-plugin-svelte": "^2.33.0"
+  }
+}

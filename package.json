@@ -1,0 +1,25 @@
+{
+  "name": "workspacekit",
+  "version": "0.0.1",
+  "private": true,
+  "author": {
+    "name": "Artifex",
+    "email": "mac@mkra.dev",
+    "url": "https://mkra.dev"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "format": "prettier --write .",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "eslint": "^8.51.0",
+    "eslint-config-custom": "workspace:*",
+    "prettier": "^3.0.3",
+    "turbo": "^1.10.15"
+  }
+}
